@@ -1,39 +1,11 @@
+dinosaur = {
+  'name'              => "Tyrannosaurus rex",
+  'diet'              => "Carnivore",
+  'amount_of_legs'    => 2,
+  'length'            => 40,
+  'lived_in_jurassic' => false,
+  'has_gills'         => false,
 
-name = {
-  'T rex' => "Tyrannosaurus rex",
-  'Stego' => "Stegosaurus"
+  'fossil_locations'  => ['Montana', 'Texas', 'Utah', 'Wyoming', 'Alberta', 'Mongolia'],
+  'colors'            => ["reddish-brown"]
 }
-
-diet = {
-  'T rex' => "Carnivore",
-  'Stego' => "Herbivore"
-}
-
-amount_of_legs = {
-  'T rex' => 2,
-  'Stego' => 4
-}
-
-length = {
-  'T rex' => 40,
-  'Stego' => 30
-}
-
-lived_in_jurassic = {
-  'T rex' => false,
-  'Stego' => true
-
-has_gills = {
-  'T rex' => false,
-  'Stego' => false
-}
-
-fossil_locations = [
-  {'T rex' => "North America"}
-  {'Stego' => "Western Europe"}
-]
-
-colors = [
-  {'T rex' => "reddish-brown"}
-  {'Stego' => "muted shades of green and brown"}
-]
